@@ -1,0 +1,65 @@
+img {
+    max-width:100%;
+    /*never bigger than their parent's width*/
+}
+
+section{
+    background-color: rgb(233, 233, 223)
+}
+
+@media(min-width: 768px){
+    section{
+        width:752px;
+        margin: auto; /*centers it*/
+        background-color:rgb(219, 249, 219)
+        /*once it goes over 752 px it will change to the second color here */
+    }
+    label[for=menuToggle]{
+        display:none;
+    }
+}
+/*make sure the img doesn't get bigger than 768 px @ media rule*/
+
+header nav ul{
+    display:block;
+    float:right;
+}
+
+header nav ul li{
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+#menuToggle {
+    display:none;
+}
+
+#logo{
+    height:40px;
+}
+
+#togglebutton{
+    height:30px;
+    float:right;
+}
+
+header nav ul{
+    /*hide from page*/
+    display:none;   
+    padding-left:0px;
+    list-style:none;
+}
+header nav ul li{
+    padding:5px 10px;
+    border-bottom:2px solid rgb(15, 15, 159);
+}
+
+header nav ul li:last-child{
+    /*last child is the last piece of the list*/
+    border-bottom:0px;
+}
+
+#menuToggle:checked + ul{
+    display:block;
+     /*when input is checked, it displays UL*/
+}
