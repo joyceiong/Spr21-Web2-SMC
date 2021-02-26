@@ -7,28 +7,7 @@ section{
     background-color: rgb(233, 233, 223)
 }
 
-@media(min-width: 768px){
-    section{
-        width:752px;
-        margin: auto; /*centers it*/
-        background-color:rgb(219, 249, 219)
-        /*once it goes over 752 px it will change to the second color here */
-    }
-    label[for=menuToggle]{
-        display:none;
-    }
-}
-/*make sure the img doesn't get bigger than 768 px @ media rule*/
 
-header nav ul{
-    display:block;
-    float:right;
-}
-
-header nav ul li{
-    display: inline-block;
-    border-bottom: 0px;
-}
 
 #menuToggle {
     display:none;
@@ -49,6 +28,13 @@ header nav ul{
     padding-left:0px;
     list-style:none;
 }
+
+#menuToggle:checked + ul{
+    display:block;
+     /*when input is checked, it displays UL*/
+}
+
+
 header nav ul li{
     padding:5px 10px;
     border-bottom:2px solid rgb(15, 15, 159);
@@ -59,7 +45,31 @@ header nav ul li:last-child{
     border-bottom:0px;
 }
 
-#menuToggle:checked + ul{
+@media(min-width: 768px){
+    section{
+        width:752px;
+        margin: auto; /*centers it*/
+        background-color:rgb(219, 249, 219)
+        /*once it goes over 752 px it will change to the second color here */
+    }
+    label[for=menuToggle]{
+        display:none;
+    }
+    
+    header nav ul{
     display:block;
-     /*when input is checked, it displays UL*/
+    float:right;
+    }
+    header nav ul li{
+    display: inline-block;
+    border-bottom: 0px;
 }
+
+}
+/*make sure the img doesn't get bigger than 768 px @ media rule*/
+
+
+
+
+
+
