@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+}
+
+img{
+    max-width:100%;
+}
+/* generic rule to make imge to be fit within the page and also not to have any market*/
+
+nav ul{
+    list-style:none;
+    padding-left:0px;
+}
+
+nav ul a{
+    color:black;
+    text-decoration:none;
+    /*resetting the standard*/
+}
+
+/* generic rule to make imge to be fit within the page and also not to have any market*/

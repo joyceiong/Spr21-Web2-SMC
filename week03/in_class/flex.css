@@ -1,0 +1,12 @@
+
+/*FLEX-ORDER
+.0-m1 - personal note , o=order , -m1= minus one */
+
+
+
+@media(min-width:768px){
+        /*flex order, after breakpoint*/
+        .o-b-m1{
+            order:-1;
+        }
+}

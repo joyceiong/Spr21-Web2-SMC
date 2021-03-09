@@ -1,0 +1,87 @@
+@import url(reset.css);
+@import url(flex.css);
+
+nav{
+    font-family: 'Fascinate', cursive;
+    display:flex;
+    flex-direction:column;
+    color:rgb(5, 5, 187);
+
+}
+
+nav ul{
+    padding:0px;
+    display:flex;
+    flex-direction:column;
+}
+
+nav ul li{
+    padding:10px 0px;   
+}
+
+a:hover, a:active{
+    font-size:150%;
+}
+
+.logo{
+    width:70px;
+}
+
+div{
+    display:flex;
+    flex-direction:column; 
+}
+
+
+
+@media(min-width:768px){
+    nav{
+        flex-direction:row;
+        align-items:center;
+    }
+   
+    nav ul{
+        flex-direction:row;
+        flex-grow:1;
+        justify-content: space-evenly;
+        align-items:center;
+        
+    }
+    nav ul li{
+        flex-grow:1;
+        text-align:center;
+    }
+
+    main{
+        display:inline-block;
+        widows: 30%;
+        flex-direction:row;
+    }
+
+
+
+    .gallery{
+        display:inline-block;
+        padding:5px;
+    }
+
+    .individual{
+        width:33%;
+        display:inline-block;
+        
+     
+    }
+    
+   .images{
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px;
+    
+   }
+
+   #mainlogo{
+    width:auto;
+   }
+
+
+}

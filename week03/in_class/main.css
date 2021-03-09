@@ -1,0 +1,56 @@
+@import url(reset.css);
+@import url(colors.css);
+@import url(flex.css);
+
+/*import query*/
+/*navigation*/
+nav{
+    display:flex;
+    flex-direction:column;
+    /*always starts as generic column*/
+    padding:10px;
+}
+
+nav ul{
+    display:flex;
+    flex-direction:column;
+    
+
+}
+.logo{
+    width:70px;
+}
+
+nav ul li{
+    padding:10px 0px;
+    border-bottom:2px solid black;
+}
+
+nav ul li:last-child{
+    border-bottom:none;
+}
+
+@media(min-width:768px){
+    nav{
+        flex-direction:row;
+        /*overides the flex-direction of nav*/
+    }
+    nav ul{
+        flex-direction:row;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        
+    }
+
+    nav ul li{
+        border-bottom:none;
+        border-right:2px solid black;
+        flex-grow: 1;
+        text-align:center;
+    }
+
+    nav ul li:last-child{
+        border-right:none;
+    }
+
+}

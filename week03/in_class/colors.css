@@ -1,0 +1,15 @@
+.bg-blue{
+    background-color:rgb(140, 186, 255);
+}
+
+.bg-purple{
+    background-color:rgb(148, 143, 242);
+}
+.bg-green{
+    background-color:rgb(190, 242, 190);
+}
+
+.bg-scarlet{
+    background-color:rgb(254, 167, 167);
+}
+/*prebuilt some classes of color, see html for reference*/

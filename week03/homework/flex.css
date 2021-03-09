@@ -1,0 +1,22 @@
+@media(min-width:768px){
+
+    .o-2{
+        order:2;
+        }
+    
+        .o-3{
+            order:3;
+        }
+    
+       .logo{
+        order:1;
+        }
+    
+        .o-m1{
+            order:-1;
+        }
+    
+        .o-m2{
+            order:-2;
+        }
+    }   
