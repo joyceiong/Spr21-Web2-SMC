@@ -1,5 +1,5 @@
-@import url(reset.css);
-@import url(flex.css);
+@import url("reset.css");
+@import url("flex.css");
 
 nav{
     font-family: 'Fascinate', cursive;
@@ -61,17 +61,22 @@ div{
 
 
     .gallery{
-        display:inline-block;
+        display:flex;
         padding:5px;
+        flex-direction:row;
+        flex-wrap:wrap;
+        /*update to display:flex instead then add flex-direction to row and flex-wrap to wrap;*/
     }
 
     .individual{
-        width:33%;
-        display:inline-block;
-        
-     
+        width:33%;     
     }
     
+    .individual:nth-child(4){
+        flex-grow:1;
+        /* to make image as a child to use flex-grow*/
+    }
+
    .images{
     max-width: 100%;
     object-fit: cover;
