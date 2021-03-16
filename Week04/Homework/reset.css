@@ -1,0 +1,20 @@
+body{
+    margin:0px;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+img{
+    max-width:100%;
+}
+
+div{
+    border-radius:10px;
+}
+
+img{
+    border-radius:10px;
+}
+
+p{
+    font-size:15px;
+}

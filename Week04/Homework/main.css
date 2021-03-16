@@ -1,0 +1,56 @@
+@import url("reset.css");
+@import url("colors.css");
+
+.grid-container{    
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    grid-template-areas:
+    ". header"
+    "profile bio"
+    "footer footer";
+} 
+
+.grid-item1{
+    grid-area:header;
+    text-align: center;
+    font-size:30px;
+}
+
+.grid-item2{
+    grid-area:profile;  
+}
+
+.grid-item3{
+    grid-area:bio;
+    padding:12px;
+}
+
+.grid-item4{
+    grid-area:footer;
+    padding:10px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap:16px;
+
+}
+
+
+@media(min-width:768px){
+    section{
+        width:760px;
+        margin:auto;
+    }
+
+    .grid-container{
+        grid-template-columns:20% auto 20%;
+        grid-template-rows:1fr 2fr;
+
+    }
+
+
+}
+
