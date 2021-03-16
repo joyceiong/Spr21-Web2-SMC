@@ -1,6 +1,7 @@
 body{
     margin:0px;
-    font-family: 'Shippori Mincho B1', serif;
+    font-family: 'Fjalla One', sans-serif;
+    background-image:linear-gradient(#ce6d55, #4dc5bf, #ffe458);
 }
 
 img{
@@ -15,6 +16,11 @@ img{
     border-radius:10px;
 }
 
-p{
-    font-size:15px;
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 0 5px #ff0f4f;
+    color: #3ccecb;
+    margin:15px;
 }

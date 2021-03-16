@@ -1,17 +1,10 @@
-.bg-blue{
-    background-color:rgb(140, 186, 255);
+.bg-l1{
+    background-color:rgb(199, 88, 114);
 }
 
-.bg-purple{
-    background-color:rgb(148, 143, 242);
+.bg-l2{
+    background-color:rgb(238, 237, 198);
 }
-.bg-green{
-    background-color:rgb(190, 242, 190);
-}
-
-.bg-scarlet{
-    background-color:rgb(254, 167, 167);
-}
-.bg-yellow{
-    background-color:rgb(254, 251, 167);
+.bg-l3{
+    background-color:rgb(188, 181, 173);
 }
