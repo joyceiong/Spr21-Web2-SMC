@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="main.css" rel="stylesheet">
+
+    <title>Basic Grid Systems</title>
+</head>
+<!-- this is in reference of aeon.co-->
+<body>
+    <header>
+        <!--TO DO: add navigation-->
+    </header>
+
+    <main>
+        <!--Always full width // each section will be a flex parent-->
+        <section class="flex-container">
+            <article class="bg-blue jumbotron">
+                <h1>Big Blue Sky</h1>
+                <h3>Haven't seen it in a while</h3>
+            </article>
+        </section>
+
+        <!--Full width (by default), Medium screen:50%, LG:50%-->
+        <section class="flex-container">
+            <article class="w-md-50">
+                <div class="segment">
+                <img src="https://hetisdemerckx.be/wp-content/uploads/2020/03/Quokka-cover-1080x608.jpg" alt="cute quokka">
+                <h3>This is an article header</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </article>
+            <article class=" w-md-50">
+                <div class="segment">
+                <img src="https://hetisdemerckx.be/wp-content/uploads/2020/03/Quokka-cover-1080x608.jpg" alt="cute quokka">
+                <h3>This is an article header</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            </article>
+           
+        </section>
+
+        <!--Full width, MD:50%, LG:33%-->
+        <section class="flex-container">
+            <article class="w-md-50 w-lg-33"><!-- take a look at this -->
+                <div class="segment">
+                    <h1>Support our website by donating a lot of money!</h1>
+                    <button href="/donate.html" target="_blank">Donate Here</button>
+                </div>
+            </article>
+            <article class="w-md-50 w-lg-33">
+                <div class="segment">
+                    <img src="https://hetisdemerckx.be/wp-content/uploads/2020/03/Quokka-cover-1080x608.jpg" alt="cute quokka">
+                    <h3>This is an article header</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+            </article>
+            <article class="bg-yellow w-md-50 w-lg-33">
+                <div class="segment">
+                    <img src="https://hetisdemerckx.be/wp-content/uploads/2020/03/Quokka-cover-1080x608.jpg" alt="cute quokka">
+                    <h3>This is an article header</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+            </article>
+        </section>
+
+        <!--Full width, MD:50%, LG:25%-->
+        <section class="flex-container">
+            <article class="bg-scarlet w-md-50 w-lg-25 w-lg-25">7</article>
+            <article class="bg-blue w-md-50 w-lg-25 w-lg-25">8</article>
+            <article class="bg-purple w-md-50 w-lg-25 w-lg-25">9</article>
+            <article class="bg-green w-md-50 w-lg-25 w-lg-25">10</article>
+        </section>
+
+    </main>
+    
+    <footer>
+        
+    </footer>
+</body>
+
+
+</html>
